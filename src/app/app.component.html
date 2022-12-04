@@ -1,0 +1,5 @@
+<div class="wrapper">
+  <h1>ng-pdfjs</h1>
+  <img *ngIf="imgSrc" [src]="imgSrc" [width]="imgWidth" [height]="imgHeight" class="pdf-image">
+  <span *ngIf="errorMessage" class="error-message">{{ errorMessage }}</span>
+</div>
